@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetários</title>
+</head>
+<style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,500,800);
+
+    body {
+        background: #ffe6006c;
+        font-family: 'Open Sans';
+        font-size: 1.3em;
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        text-indent: 123;
+    }
+    #nav {
+        background: url("https://www.papeiseparede.com.br/7713-thickbox_default/papel-de-parede-mural-ceu-estrelado.jpg.webp");
+        position: fixed;
+        z-index: 1000; /** **/
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    #nav ul{
+        list-style: none;
+    }
+    #nav li{
+        display: inline-block;
+        padding: 10px;
+        transition-duration: 0.5s;
+    }
+    #nav li:hover{
+        border-radius: 10px;
+        background: #ffe600;
+    }
+    #nav li:hover a{
+        color: black;
+    }
+    .content{
+        padding-top: 90px;
+    }
+    .anchor{
+        display: block;
+    }
+    .title{
+        position: relative;
+        display: block;
+        top: -50px;
+        padding: 20px 0;
+        font-size: 1.9em;
+    }
+    .title:before{
+        font-size: 1.5em;
+        content: "\005B";
+    }
+    .title:after{
+        font-size: 1.5em;
+        content: "\005D";
+    }
+    .page-divider{
+        margin: 0 auto;
+        width: 100%;
+        min-height: 600px;
+        height: 100%;
+        overflow: hidden;
+        background-size: 100% 100%;
+    }
+    .pgd1{background-image: url("https://www.omundoeseu.com.br/wp-content/uploads/2022/01/cinemadomeplanetariodoha.jpg")}
+    .page{
+        min-width: 200px;
+        padding: 50px 100px;
+    }
+    #page1 {background: lightgray;}
+    #page2 {background: lightgray;}
+    #page3 {background: lightgray;}
+
+
+    .tabela {
+        margin: 50px auto;
+        max-width: 500px;
+        border-collapse: collapse;
+    }
+
+    td, th {
+        text-align: center;
+        border: 1px solid black;
+        padding: 15px;
+        white-space: nowrap;
+    }
+
+    .miniFoto {
+        max-width: 250px;
+    }
+
+    td > a{
+        color: darkblue;
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+
+    td > a:hover {
+        color: blueviolet;
+    }
+
+    .miniLogo {
+        color: black;
+        width: 20px;
+    }
+
+    .redeSocial > a{
+        color: blue;
+
+    }
+
+    footer {
+        text-align: right;
+        padding: 20px;
+    }
+    footer p {
+        -webkit-column-count: 2;
+        -webkit-column-gap: 40px;
+        -moz-column-count: 2;
+        -moz-column-count: 40px;
+        -o-column-count: 2;
+        -o-column-gap: 40px;
+        column-count: 2;
+        column-gap: 40px;
+    }
+</style>
+
+<body>
+    
+    <header>
+        <div id="nav">
+            <ul>
+                <li><a href="#Inicio" class="scroller" data-offset="-140">Inicio</a></li>
+                <li><a href="#planetarios" class="scroller" data-offset="-139">Planetarios</a></li>
+                <li><a href="#contato" class="scroller" data-offset="-139">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <body>
+        <div class="content">
+
+            <div class="page" id="page1">
+
+                <a class="anchor" id="Inicio"></a>
+                    <div class="title ttl1">Bem vindo</div>
+
+                <p><strong>Bem vindo.</strong> Vamos entender oque é um planetário.</p>
+
+                <p>Um planetário é um local onde ocorrem apresentações teatrais sobre astronomia, e que simula o céu, sobretudo noturno, de acordo com a data e local de observação. Normalmente, é constituído por uma abóbada ou cúpula e por uma máquina colocada no seu centro, que projeta os diferentes objetos celestes.</p>
+
+                <p>No seu interior, normalmente assiste-se a sessões do planetário, onde se exploram e explicam conceitos da astronomia. Como complemento, muitos planetários têm equipamento audiovisual, como projetores de slides ou sistemas de som, que em muito enriquecem as sessões. É habitual as sessões de planetário serem conduzidas por um apresentador, sob a forma de sessões ao vivo.</p>
+
+                <p>Uma fração apreciável dos planetários existentes, são estruturas móveis, facilmente transportáveis, cuja cúpula é de um tecido apropriado, e que mantém a sua forma esférica recorrendo a um sistema que insufla ar para o seu interior. No planetário, também são usados telescópios.</p>
+            
+            </div>
+
+                <div class="page-divider pgd1"></div>
+                
+                <div class="page" id="page2">
+                    <a class="anchor" id="planetarios"></a>
+                        <div class="title">Planetarios</div>
+                        <p>Aqui você encontrará os 5 Planetários mais incríveis do Brasil</p></div>
+                        <table class="tabela">
+                            <thead>
+                                <tr>
+                                    <th>Cidade</th>
+                                    <th>Capacidade</th>
+                                    <th>Data de Inauguração</th>
+                                    <th>Foto</th>
+                                    <th>Site</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Bagé - RS</td>
+                                    <td>52 Pessoas</td>
+                                    <td>2017</td>
+                                    <td><img class="miniFoto" src="./imagens/planetario-rs.jpg" alt=""></td>
+                                    <td><a href="https://sites.unipampa.edu.br/planetario/" rel="external" target="_blank">Planetário Unipampa</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Belém - PA</td>
+                                    <td>105 Pessoas</td>
+                                    <td>1999</td>
+                                    <td><img src="./imagens/planetario-pa.webp" alt="" class="miniFoto"></td>
+                                    <td><a href="https://paginas.uepa.br/ppgeeca/?page_id=77" rel="external" target="_blank">Centro de Ciências e Planetário do Pará</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Rio de Janeiro - RJ</td>
+                                    <td>350 Pessoas</td>
+                                    <td>1998</td>
+                                    <td><img src="./imagens/planetario-rj.jpg" alt="" class="miniFoto"></td>
+                                    <td><a href="https://planeta.rio/" rel="external" target="_blank">Planetário Rio</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Fortaleza - CE</td>
+                                    <td>80 Pessoas</td>
+                                    <td>1999</td>
+                                    <td><img src="./imagens/planetario-ce.jpg" alt="" class="miniFoto"></td>
+                                    <td><a href="https://www.planetariorubensdeazevedo.com.br/" rel="external" target="_blank">Planetário Rubens de Azevedo</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Belo Horizonte - MG</td>
+                                    <td>65 Pessoas</td>
+                                    <td>2010</td>
+                                    <td><img src="./imagens/planetario-mg.jpg" alt="" class="miniFoto"></td>
+                                    <td><a href="https://www.ufmg.br/espacodoconhecimento/descubra/planetario/" rel="external" target="_blank">Planetário Espaço do conhecimento</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                
+                
+                <div class="page" id="page3">
+                    <a class="anchor" id="contato"></a>
+                    <div class="title">Contato</div>
+                    <p>Site desenvolvido pela Sistemas para disseminação da ciencia &copy; </p>
+                    <p>Pode nos contatar por meio das redes Sociais abaixo:</p>
+                    <ul>
+                        <li class="redeSocial"><a href="#"><img src="https://www.designi.com.br/images/preview/10000152.jpg" class="miniLogo">     instagram</a></li>
+                        <li class="redeSocial"><a href="#"><img src="https://i.pinimg.com/originals/b5/87/ac/b587aca20b22df6db8993b48458bd380.png" class="miniLogo">    Facebook</a></li>
+                    </ul>
+                 </div>
+        </div>
+    </body>
+
+    <footer>
+            <p>Produzido em 2023 &copy;</p>
+    </footer>
+</body>
+</html>
